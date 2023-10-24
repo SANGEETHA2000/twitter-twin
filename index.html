@@ -8,10 +8,10 @@
 </head>
 <body class="flex flex-col h-screen">
     <div class="flex flex-1 flex-row pt-2">
-        <div class="basis-1/2 flex justify-center items-center p-8" style="flex-basis: 55%;">
+        <div class="flex justify-center items-center p-8" style="flex-basis: 55%;">
             <img src="assets/landing-page-logo.png" alt="Twitter Twin Logo" height="275" width="304">
         </div>
-        <div class="basis-1/2 flex flex-col p-9" style="flex-basis: 45%;">
+        <div class="flex flex-col p-9" style="flex-basis: 45%;">
             <div class="my-12">
                 <span class="font-family text-6xl font-bold">Happening now</span>
             </div>
@@ -33,9 +33,9 @@
                 </div>
                 <div class="my-2" style="width: 300px;">
                     <div class="flex flex-row items-center">
-                        <div style="background-color: rgb(239, 243, 244); height: 1px; width: 135px"></div>
+                        <div class="or-line"></div>
                         <span class="mx-2" style="line-height: 20px; font: size 15px; color: rgb(15, 20, 25);">or</span>
-                        <div style="background-color: rgb(239, 243, 244); height: 1px; width: 135px"></div>
+                        <div class="or-line"></div>
                     </div>
                 </div>
                 <div class="mb-2">
@@ -43,23 +43,23 @@
                         <span>Create account</span>
                     </button>
                 </div>
-                <div class="mb-5" style="width: 300px; line-height: 12px; font-weight: 400;">
-                    <span class="font-normal" style="color: rgb(83, 100, 113); font-size: 11px;">By signing up, you agree to the </span>
+                <div class="mb-5 font-normal" style="width: 300px; line-height: 12px;">
+                    <span class="font-normal terms-text">By signing up, you agree to the </span>
                     <a href="https://twitter.com/tos" target="_blank">
-                        <span class="font-normal" style="color: rgb(29, 155, 240);; font-size: 11px;">Terms of Service</span>
+                        <span class="font-normal term-link">Terms of Service</span>
                     </a>
-                    <span class="font-normal" style="color: rgb(83, 100, 113); font-size: 11px;"> and </span>
+                    <span class="font-normal terms-text"> and </span>
                     <a href="https://twitter.com/privacy" target="_blank">
-                        <span class="font-normal" style="color: rgb(29, 155, 240);; font-size: 11px;">Privacy Policy</span>
+                        <span class="font-normal term-link">Privacy Policy</span>
                     </a>
-                    <span class="font-normal" style="color: rgb(83, 100, 113); font-size: 11px;">, including </span>
+                    <span class="font-normal terms-text">, including </span>
                     <a href="https://help.twitter.com/rules-and-policies/twitter-cookies" target="_blank">
-                        <span class="font-normal" style="color: rgb(29, 155, 240);; font-size: 11px;">Cookie Use.</span>
+                        <span class="font-normal term-link">Cookie Use.</span>
                     </a>
                 </div>
                 <div class="mt-10 flex flex-col">
                     <span class="mb-5 font-bold" style="font-size: 17px;">Already have an account?</span>
-                    <button class="button signin-button gap-2">
+                    <button class="button signin-button">
                         <span>Sign in</span>
                     </button>
                 </div>
@@ -68,60 +68,60 @@
     </div>
     <footer>
         <nav aria-label="Footer"  class="flex flex-row flex-wrap justify-center items-center p-4">
-            <a href="https://about.twitter.com" target="_blank" style="color: rgb(83, 100, 113); font-size: 13px; font-weight: 400; padding-right:16px; margin-top:4px; margin-bottom:4px">
+            <a href="https://about.twitter.com" target="_blank" class="footer-text">
                 <span>About</span>
             </a>
-            <a href="https://help.twitter.com/using-x/download-the-x-app" target="_blank" style="color: rgb(83, 100, 113); font-size: 13px; font-weight: 400; padding-right:16px; margin-top:4px; margin-bottom:4px">
+            <a href="https://help.twitter.com/using-x/download-the-x-app" target="_blank" class="footer-text">
                 <span>Download the X app</span>
             </a>
-            <a href="https://help.twitter.com" target="_blank" style="color: rgb(83, 100, 113); font-size: 13px; font-weight: 400; padding-right:16px; margin-top:4px; margin-bottom:4px">
+            <a href="https://help.twitter.com" target="_blank" class="footer-text">
                 <span>Help Centre</span></a>
-            <a href="https://twitter.com/tos" target="_blank" style="color: rgb(83, 100, 113); font-size: 13px; font-weight: 400; padding-right:16px; margin-top:4px; margin-bottom:4px">
+            <a href="https://twitter.com/tos" target="_blank" class="footer-text">
                 <span>Terms of Service</span>
             </a>
-            <a href="https://twitter.com/privacy" target="_blank" style="color: rgb(83, 100, 113); font-size: 13px; font-weight: 400; padding-right:16px; margin-top:4px; margin-bottom:4px">
+            <a href="https://twitter.com/privacy" target="_blank" class="footer-text">
                 <span>Privacy Policy</span>
             </a>
-            <a href="https://support.twitter.com/articles/20170514" target="_blank" style="color: rgb(83, 100, 113); font-size: 13px; font-weight: 400; padding-right:16px; margin-top:4px; margin-bottom:4px">
+            <a href="https://support.twitter.com/articles/20170514" target="_blank" class="footer-text">
                 <span>Cookie Policy</span>
             </a>
-            <a href="https://help.twitter.com/resources/accessibility" target="_blank" style="color: rgb(83, 100, 113); font-size: 13px; font-weight: 400; padding-right:16px; margin-top:4px; margin-bottom:4px">
+            <a href="https://help.twitter.com/resources/accessibility" target="_blank" class="footer-text">
                 <span>Accessibility</span>
             </a>
-            <a href="https://business.twitter.com/en/help/troubleshooting/how-twitter-ads-work.html?ref=web-twc-ao-gbl-adsinfo&amp;utm_source=twc&amp;utm_medium=web&amp;utm_campaign=ao&amp;utm_content=adsinfo" target="_blank" style="color: rgb(83, 100, 113); font-size: 13px; font-weight: 400; padding-right:16px; margin-top:4px; margin-bottom:4px">
+            <a href="https://business.twitter.com/en/help/troubleshooting/how-twitter-ads-work.html?ref=web-twc-ao-gbl-adsinfo&amp;utm_source=twc&amp;utm_medium=web&amp;utm_campaign=ao&amp;utm_content=adsinfo" target="_blank" class="footer-text">
                 <span>Ads info</span>
             </a>
-            <a href="https://blog.twitter.com" target="_blank" style="color: rgb(83, 100, 113); font-size: 13px; font-weight: 400; padding-right:16px; margin-top:4px; margin-bottom:4px">
+            <a href="https://blog.twitter.com" target="_blank" class="footer-text">
                 <span>Blog</span>
             </a>
-            <a href="https://status.twitterstat.us" target="_blank" style="color: rgb(83, 100, 113); font-size: 13px; font-weight: 400; padding-right:16px; margin-top:4px; margin-bottom:4px">
+            <a href="https://status.twitterstat.us" target="_blank" class="footer-text">
                 <span>Status</span>
             </a>
-            <a href="https://careers.twitter.com" target="_blank" style="color: rgb(83, 100, 113); font-size: 13px; font-weight: 400; padding-right:16px; margin-top:4px; margin-bottom:4px">
+            <a href="https://careers.twitter.com" target="_blank" class="footer-text">
                 <span>Careers</span>
             </a>
-            <a href="https://about.twitter.com/press/brand-assets" target="_blank" style="color: rgb(83, 100, 113); font-size: 13px; font-weight: 400; padding-right:16px; margin-top:4px; margin-bottom:4px">
+            <a href="https://about.twitter.com/press/brand-assets" target="_blank" class="footer-text">
                 <span>Brand Resources</span>
             </a>
-            <a href="https://ads.twitter.com/?ref=gl-tw-tw-twitter-advertise" target="_blank" style="color: rgb(83, 100, 113); font-size: 13px; font-weight: 400; padding-right:16px; margin-top:4px; margin-bottom:4px">
+            <a href="https://ads.twitter.com/?ref=gl-tw-tw-twitter-advertise" target="_blank" class="footer-text">
                 <span>Advertising</span>
             </a>
-            <a href="https://marketing.twitter.com" target="_blank" style="color: rgb(83, 100, 113); font-size: 13px; font-weight: 400; padding-right:16px; margin-top:4px; margin-bottom:4px">
+            <a href="https://marketing.twitter.com" target="_blank" class="footer-text">
                     <span>Marketing</span>
             </a>
-            <a href="https://business.twitter.com/?ref=web-twc-ao-gbl-twitterforbusiness&amp;utm_source=twc&amp;utm_medium=web&amp;utm_campaign=ao&amp;utm_content=twitterforbusiness" target="_blank" style="color: rgb(83, 100, 113); font-size: 13px; font-weight: 400; padding-right:16px; margin-top:4px; margin-bottom:4px">
+            <a href="https://business.twitter.com/?ref=web-twc-ao-gbl-twitterforbusiness&amp;utm_source=twc&amp;utm_medium=web&amp;utm_campaign=ao&amp;utm_content=twitterforbusiness" target="_blank" class="footer-text">
                 <span>X for Business</span>
             </a>
-            <a href="https://developer.twitter.com" target="_blank" style="color: rgb(83, 100, 113); font-size: 13px; font-weight: 400; padding-right:16px; margin-top:4px; margin-bottom:4px">
+            <a href="https://developer.twitter.com" target="_blank" class="footer-text">
                 <span>Developers</span>
             </a>
-            <a href="https://twitter.com/i/directory/profiles" target="_blank" style="color: rgb(83, 100, 113); font-size: 13px; font-weight: 400; padding-right:16px; margin-top:4px; margin-bottom:4px">
+            <a href="https://twitter.com/i/directory/profiles" target="_blank" class="footer-text">
                 <span>Directory</span>
             </a>
-            <a href="/settings" style="color: rgb(83, 100, 113); font-size: 13px; font-weight: 400; padding-right:16px; margin-top:4px; margin-bottom:4px">
+            <a href="/settings" class="footer-text">
                     <span>Settings</span>
             </a>
-            <span style="color: rgb(83, 100, 113); font-size: 13px; font-weight: 400; padding-right:16px; margin-top:4px; margin-bottom:4px">© 2023 X Corp.</span>
+            <span class="footer-text">© 2023 X Corp.</span>
         </nav>
     </footer>
 </body>
